@@ -1,0 +1,627 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: #fffbfb;
+   
+   
+}
+.parent{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.first-sec{
+    width: 12vw;
+    height: 105vh;
+    margin-bottom: 0;
+    padding: 1.5rem;
+    background-color: black;
+}
+.icon-1{
+    width: 2rem;
+    margin-left: 1rem;
+
+}
+.left-links{
+    margin-top: 2rem;
+}
+.left-links ul {
+    list-style-type: none;
+}
+.left-links ul li{
+    padding: 1rem 0;
+    color: white;
+    opacity: 0.4;
+    
+}
+.left-links ul li a{
+    color: white;
+    text-decoration: none;
+  
+}
+
+.left-links ul li:hover{
+    opacity: 1;
+}
+.left-links ul li span{
+    padding-right:  1rem;
+}
+.left-links ul li:last-child{
+    position: relative;
+    top: 17.5rem;
+}
+.second-sec{
+    width: 39vw;
+    margin: 1rem 2rem;
+    padding: 0.6rem;
+}
+.date{
+    height: 2rem;
+}
+.second-sec-links{
+    width: 100%;
+    margin-top: 1.2rem;
+}
+.second-sec-links a{
+   color: black;
+   opacity:0.5;
+   text-decoration: none;
+}
+.second-sec-links a:hover{
+    opacity: 1;
+    text-decoration: underline;
+ }
+.templates{
+    width: 100%;
+    margin: 1rem 0;
+
+}
+.templates div{
+    width: 95%;
+    height: 4rem;
+    margin: 1rem 0;
+    text-align: center;
+    border-radius: 0.7rem;
+    padding:0.5rem 1rem;
+}
+.templates div:hover {
+    background-color: black;
+    color: white;
+}
+.templates div:hover .template-icons {
+    background-color: white;
+}
+
+.template-icons{
+    border-radius: 0.5rem;
+    background-color: #FFDAB9;
+    width: 3.8rem;
+    height: 2.5rem;
+    padding: 0.5rem 0;
+}
+#ud-img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.time p{
+    opacity: 0.5;
+}
+.first-div{
+    background-color: white; 
+    box-shadow: 1px 1px 2px rgb(206, 197, 197);   
+}
+.template-images img{
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+}
+.img1{
+    left: 1rem;
+
+}
+.img2{
+    z-index: 1;
+}
+.img3{
+    right: 1rem;
+    z-index: 2;
+}
+.second-div{
+     background-color: white; 
+    box-shadow: 1px 1px 2px rgb(206, 197, 197);
+    
+}
+
+.img4{
+    right: 1rem;
+    z-index: 3;
+}
+
+.progress-header{
+    margin: 1rem 0;
+    width: 95%;
+    padding:  1rem;
+}
+.progress-bar{
+    background-color: rgb(255, 245, 236);
+    width: 100%;
+    height: 100%;
+}
+.progress-bar p{
+    font-weight: 530;
+    padding: 1rem;
+}
+.progress-text span i{
+    padding: 0.5rem;
+    padding: 1rem;
+}
+.progress-chart{
+    width: 6rem;
+    height: 6rem;
+    margin: 1rem 2.5rem;
+    border: 2rem solid 	#291429;
+    border-radius: 50%;
+    border-right: 2rem solid #e1501b;
+    transform: rotate(-65deg);
+    box-shadow: 0 0 0 0.7rem #e6c8ae;
+    font-size: 0.9rem;
+    font-weight: bolder;
+    position: relative;
+}
+.progress-chart::before{
+    content: '35%';
+    transform: rotate(64deg);
+    padding: 0.5rem;
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 6.2rem;
+    top: 1.5rem;
+}
+.progress-chart::after{
+    content: '65%';
+    padding: 0.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    transform: rotate(64deg);
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    right: 6.1rem;
+    bottom: 2rem;
+}
+.progress-list {
+    list-style-type: none;
+    padding-right: 1rem;
+}
+.progress-list li:nth-child(1)::before{
+     content: "•"; 
+     color: red;
+     width: 1rem;
+     font-weight: 1000;
+     font-size: 1.3rem;
+     padding: 0.1rem;
+     display: inline-block;
+}
+.progress-list li:nth-child(3)::before{
+        content: "•"; 
+        color:black;
+        width: 1rem;
+        font-weight: 1000;
+        font-size: 1.3rem;
+        padding: 0.1rem;
+        display: inline-block;
+}
+   
+.progress-list li:nth-child(2n+1) {
+    font-weight: bolder;
+    padding: 1rem 0 0 0;
+  }
+.progress-list li:nth-child(2n) {
+    font-size: 0.8rem;
+    list-style-type: none;
+    padding:0.5rem 1.3rem;
+    opacity: 0.5;
+  }
+.third-div{
+    background-color: white; 
+    box-shadow: 1px 1px 2px rgb(206, 197, 197);
+   
+}
+.third-sec{
+    width: 48vw;
+    margin: 1rem 2rem;
+}
+.third-header{
+    width: 100%;
+    height: 3.6rem;
+}
+.search-box{
+    height: 1.6rem;
+    background-color: #fcf5f5;
+    padding:0.3rem ;
+    border-radius: 0.3rem;
+}
+.search-icon{
+    padding: 0 0.3rem;
+}
+.search-bar{
+    width: 28rem;
+    height: 1.5rem;
+    padding: 0 1rem;
+    border: none;
+    background-color: #fcf5f5;
+    outline: none;
+    font-weight: bolder;
+
+}
+.third-sec-img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.meeting-head p{
+    opacity: 0.9;
+}
+.meeting-head p i{
+    padding: 0 0.3rem;
+}
+.meeting-dates{
+    height: 15rem;
+    margin: 0.4rem;
+    background-color: rgb(255, 240, 228);
+    padding: 0.2rem 1rem;
+    border-radius: 0.3rem;
+}
+.meeting-dates article{
+    padding: 0.5rem;
+    width: 4.5rem;
+    height: 13rem;
+    text-align: center;
+    border-radius: 0.3rem;
+    font-weight: bolder;
+  
+}
+.colored-dates{
+    background-color: peachpuff;
+    border-radius: 0.3rem;
+    padding: 0.7rem;
+}
+.lighten{
+    font-weight: normal;
+    padding: 1rem 0;
+   
+}
+.meeting-dates article:hover {
+    border: 1px solid black;
+}
+.meeting-dates article:hover .lighten{
+    font-weight: bolder;
+}
+.files-head{
+    margin: 2rem 0 0.6rem 0;
+}
+.files-head h5 i {
+    padding: 0 0.2rem;
+}
+.files{
+    height: 3.5rem;
+    border: 1.5px solid black;
+    margin-bottom: 1rem;
+    padding:  1rem;
+    border-radius: 0.5rem;
+    
+}
+.files img{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 2rem;
+}
+#img-details{
+    opacity: 0.7;
+}
+.hide{
+    display: none;
+}
+.make-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1024px) {
+    
+    .parent{
+        width: 100vw;
+    }
+    .first-sec{
+        width: 20vw;
+        height: 100vh;
+    }
+    .left-links ul li {
+        padding-top: 1rem;
+        font-size: 0.8rem;
+       
+    } 
+    .left-links ul li span{
+        padding-right: 0;
+        
+    }
+   
+    .second-sec{
+        width: 35vw;
+        margin-left: 0.1rem;
+       
+    }
+    .second-head-sec{
+        margin-bottom: 1rem;
+    }
+    .second-sec-links{
+        margin: 2rem 0;
+    }
+    .time h3{
+        font-size: 0.8rem;
+    }
+    .time p{
+        font-size: 0.7rem;
+    }
+    .progress-bar{
+        width: 36vw;
+    }
+    .progress-chart{
+        width: 6rem;
+        height: 5.5rem;
+      
+    }
+    .progress-list li:nth-child(2n+1) {
+   
+        font-size: 0.7rem;
+        font-weight: bolder;
+        padding: 0.3rem 0 0 0;
+      }
+      .progress-list li:nth-child(2n) {
+        font-size: 0.6rem;
+        list-style-type: none;
+        opacity: 0.5;
+        margin-top: -0.5rem;
+      }
+
+    .third-sec{
+        width: 50vw;
+        margin-left: 0.1rem;
+    }
+    .third-header{
+        width: 32vw;
+        margin-bottom: 1rem
+    }
+    .search-box{
+        height: 2rem;
+        padding: 0;
+    }
+
+    .search-bar{
+        margin: 0;
+        height: 1.5rem;
+        width: 14rem;
+    }
+    .meeting-head{
+        width: 32vw;
+    }
+    .meeting-dates {
+      padding: 0.5rem;
+        width: 30vw; 
+        height: 19rem;
+    }
+    .meeting-dates article{
+        width: 0.5rem;
+        padding: 0;
+    }
+    .meeting-dates article{
+        width: 3.5rem;
+    }
+    .lighten{
+        font-size: 0.8rem;
+    }
+    .files-head{
+        width: 31vw;
+    }
+    .files{
+        width: 27.5vw;
+    }
+    .files article h4{
+        font-size: 0.8rem;
+    }
+    .files article p{
+        font-size: 0.6rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    *{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    body{
+        padding: 1rem;
+    }
+    .first-sec{
+      display: none;
+  }
+  .parent{
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+.second-sec{
+    width: 90vw;
+    margin: 0.1rem;
+}
+
+.second-head-sec{
+    width: 90vw;
+    margin: 1rem 0;
+    font-size: 1.8rem;
+}
+.second-sec-links {
+    width: 100vw;
+    font-size: 2rem;
+    
+}
+.third-div{
+    background-color: rgb(255, 214, 177);
+    margin-bottom: 0;
+}
+.templates .template-icons {
+    display: none;
+}
+.time h3{
+    font-size: 1.5rem;
+}
+.time p {
+    font-size: 1rem;
+}
+.progress-text{
+    margin-left: 0.1rem;
+    margin-top: -2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.progress-text p {
+    font-size: 1.5rem;  
+}
+#hide{
+    display: unset;
+    font-size: 1rem;
+    
+}
+.dots{
+    display: none;
+}
+.progress-bar{
+    padding-right: 1rem;
+    width: 87.5vw;
+    padding-bottom: 2rem;
+   
+}
+.progress-chart{
+    height: 5rem;
+    width: 5rem;
+    margin: 0 0 0 1.5rem; 
+}
+.progress-chart::after{
+    position: absolute;
+    left: -2.5rem;
+}
+.progress-chart::before{
+    position: absolute;
+    left: 5.1rem;  
+}
+.progress-list li:nth-child(2n+1) {
+    margin-left: 0;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding: 0.3rem 0 0 0;
+  }
+  .progress-list li:nth-child(2n) {
+    font-size: 1.3rem;
+    list-style-type: none;
+    opacity: 0.5;
+    margin-top: -0.5rem;
+  }
+.hidden-header{
+    width: 90vw;
+    height: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.hidden-searchBar{
+    width: 10rem;
+    outline: none;
+    border: none;
+    margin-left: 3rem;
+    background-color: #fffbfb;
+}
+
+.hidden-search{
+    width: 15rem;
+    height: 2rem;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.hidden-icon{
+    margin-top: 0.6rem;
+}
+.hidden-img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.third-sec{
+    width: 90vw;
+    margin: 0.1rem;
+}
+.third-header{
+    display: none;
+}
+.meeting-head{
+    width: 90vw; 
+    font-size: 1.8rem;  
+}
+.meeting-dates{
+    width: 88vw;
+    height: 25rem;
+    margin-left: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    padding-top: 0 0.2rem;
+}
+.meeting-dates article{
+    height: 14rem;
+    width: 6rem;
+    font-size: 2rem;
+}
+
+.lighten{
+    font-size:1.3rem ;
+}
+.files-head{
+    width: 90vw;
+    font-size: 1.8rem;
+   
+}
+
+.files{
+    width: 88vw;
+    height: 5rem;
+   
+}
+.files img{
+    width: 2rem;
+    height: 2rem;
+}
+.files article h4{
+    font-size: 2rem;
+}
+.files article p{
+    font-size: 1.5rem;
+}
+.files p{
+    font-size: 1.5rem;
+}
+
+}
