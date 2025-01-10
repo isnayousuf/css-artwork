@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Noto Sans', sans-serif;
+}
+section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  background: rgb(238,174,202);
+background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.card {
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+    background: rgba(39, 39, 39, 0.1);
+    backdrop-filter: blur(60px);
+    -webkit-backdrop-filter: blur(60px);
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    color: #fff;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.3);
+}
+.card>i {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    font-size: 2.5rem;
+}
+.card>div>p {
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    margin-top: 10px;
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card>p {
+    position: absolute;
+    bottom: 10%;
+    fill: #fff;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.card>div>h1 {
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+
